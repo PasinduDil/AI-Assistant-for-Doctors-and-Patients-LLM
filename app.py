@@ -42,7 +42,7 @@ safety_settings=[
 
 system_prompt=""""""
 #model configuration
-model=genai.GenerativeModel(model_name="gemini-pro-vision",
+model = genai.GenerativeModel(model_name="gemini-pro-vision",
                             generation_config=generation_config,
                             safety_settings=safety_settings)
 
